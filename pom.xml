@@ -13,6 +13,15 @@
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <dependencies>
+    <dependency>
+        <groupId>ru.itpark</groupId>
+        <artifactId>shop</artifactId>
+        <version>1.0</version>
+    </dependency>
+    </dependencies>
+
     <distributionManagement>
         <repository>
             <id>github</id>
@@ -22,20 +31,3 @@
 
 </project>
 
-
-        <!--<parent>-->
-        <!--<groupId>ru.itpark</groupId>-->
-        <!--<artifactId>multi-module-app</artifactId>-->
-        <!--<version>1.0</version>-->
-        <!--</parent>-->
-
-        <!--<artifactId>jdbc-template</artifactId>-->
-        <!--<packaging>jar</packaging>-->
-
-        <!--<dependencies>-->
-        <!--<dependency>-->
-        <!--    <groupId>ru.itpark</groupId>-->
-        <!--    <artifactId>shop</artifactId>-->
-        <!--    <version>1.0</version>-->
-        <!--</dependency>-->
-        <!--</dependencies>-->
